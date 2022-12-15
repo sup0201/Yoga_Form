@@ -1,0 +1,74 @@
+
+
+User Entity has the following attributes:
+
+    User ID – primary key represented with underline
+    Complete Name
+    Contact
+    Address
+    Username
+    Password
+
+Member Entity has the following attributes:
+
+    Member ID – primary key represented with underline
+    ID number
+    Name
+    Address
+    Contact
+    Email
+    Gender
+    Age
+    Joining date
+    End of membership date
+    Membership ID – foreign key
+    User ID – foreign key
+
+Membership Type Entity has the following attributes:
+
+    Type ID – primary key represented with underline
+    Name
+    Membership Amount
+    Membership Period
+    Signup Fee
+    User ID – foreign key
+
+Instructor Entity has the following attributes:
+
+    Instructor ID – primary key represented with underline
+    Name
+    Email
+    Contact
+    Address
+    User ID – foreign key
+
+Workout Plan Entity has the following attributes:
+
+    Plan ID – primary key represented with underline
+    Member ID – foreign key
+    Work out ID – foreign key
+    Workout date
+    Workout time
+    Instructor ID – foreign key
+
+Workout Entity has the following attributes:
+
+    Work out ID – primary key represented with underline
+    Name
+    Description
+
+Payment Entity has the following attributes:
+
+    Payment ID – primary key represented with underline
+    Member ID – foreign key
+    Time
+    Date
+    Amount
+    User ID – foreign key
+
+Promotional Material Entity has the following attributes:
+
+    Promotion ID – primary key represented with underline
+    Name
+    File upload
+    User ID – foreign key
